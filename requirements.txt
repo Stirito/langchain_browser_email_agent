@@ -8,5 +8,6 @@ crawl4ai
 openai
 pytest
 langgraph-cli
+langgraph-cli[inmem]
 langchain-community
 fake-useragent==1.5.1
