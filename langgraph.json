@@ -1,0 +1,12 @@
+
+{
+    "dependencies": [
+      "requirements.txt",  
+      "."              
+    ],
+    "graphs": {
+      "email_chat": "./agent/chat_graph.py:graph"
+    },
+    "env": ".env"
+  }
+  

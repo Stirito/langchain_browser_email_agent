@@ -1,0 +1,12 @@
+langchain
+langgraph
+langchain-openai
+python-dotenv
+requests
+playwright
+crawl4ai
+openai
+pytest
+langgraph-cli
+langchain-community
+fake-useragent==1.5.1
