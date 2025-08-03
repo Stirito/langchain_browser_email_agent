@@ -61,9 +61,9 @@ Chaque étape (nœud) ajoute ou lit des champs dans l’état typé Pydantic (vo
 
 ```bash
 # 1. Clonez et créez un environnement isolé
-$ git clone https://github.com/votre-org/langchain_browser_email_agent.git
+$ git clone https://github.com/Stirito/langchain_browser_email_agent.git
 $ cd langchain_browser_email_agent
-$ python -m venv .venv && source .venv/bin/activate  # Windows : .venv\Scripts\activate
+$ python -m venv .venv  # Windows : .venv\Scripts\activate
 
 # 2. Dépendances Python
 $ pip install --upgrade pip
@@ -96,17 +96,6 @@ $ cp .env.example .env  # ou renommez‑le simplement
 ---
 
 ## Lancement rapide
-
-### Linux / macOS
-
-```bash
-# Dans l’environnement virtuel
-$ langgraph run email_chat  
-```
-
-Le graphe défini dans `langgraph.json` chargera `agent/chat_graph.py`.
-
-### Windows
 
 ```bash
 # Fixe la boucle d’événement asynchrone spéciale Windows + lance LangGraph
@@ -165,10 +154,4 @@ Le test affiche un extrait markdown de la page cible pour vérifier que Playwrig
 2. Respectez la PEP 8 et formatez avec `black`.
 3. Couverture : ajoutez un test pytest.
 4. Ouvrez une Pull Request descriptive.
-
----
-
-## Licence
-
-© 2025 – MIT. Voir `LICENSE` pour le texte complet.
 
